@@ -61,7 +61,11 @@ export class ProdutosPage {
 
   loadImageUrls(start: number, end: number) {
 
-    for (var i = start; i < end; i++) {
+    console.log(start);
+    console.log(end);
+    
+    
+    for (var i = start; i <= end; i++) {
 
       let item = this.items[i];
 
